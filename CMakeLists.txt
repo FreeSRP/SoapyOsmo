@@ -198,12 +198,6 @@ SET_SOURCE_FILES_PROPERTIES(
 )
 
 
-## TODO: FIGURE OUT WHY THIS IS NEEDED for FreeSRP
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${GR_OSMOSDR_SOURCE_DIR}/lib/freesrp")
-find_package(libusb-1.0 REQUIRED)
-include_directories(${LIBUSB_1_INCLUDE_DIR})
-#################################################
-
 ########################################################################
 # osmosdr library
 ########################################################################
